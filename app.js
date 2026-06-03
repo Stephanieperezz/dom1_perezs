@@ -26,6 +26,7 @@ btnGenerar.addEventListener('click', () => {
 
     // Removemos la clase 'hidden' para que el contenedor sea visible en la pantalla
     resultadoContenedor.classList.remove('hidden');
+    console.log("La acción ha sido correcta");
 
     // Opcional: Cambiamos el estilo dinámicamente mediante el DOM para dar feedback visual
     tokenOutput.style.backgroundColor = "#e8f8f5"; 
