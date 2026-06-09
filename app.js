@@ -9,7 +9,7 @@ const fecha = new Date();
 // 2. Escuchar el evento de clic en el botón
 btnGenerar.addEventListener('click', () => {
     const correo = emailInput.value.trim();
-
+ 
     // Validación simple mediante el DOM
     if (correo === "" || !correo.includes('@')) {
         alert("Por favor, introduce un correo electrónico válido.");
