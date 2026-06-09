@@ -24,7 +24,7 @@ btnGenerar.addEventListener('click', () => {
     const tokenSimulado = btoa(`${salt}${correo}_${timestamp}`);
 
     // 4. Manipulación del DOM para mostrar el resultado
-    // Insertamos el texto del token dentro del div correspondiente
+    // Insertamos el texto del token dentro del div correspondiente a
     tokenOutput.textContent = tokenSimulado;
 
     // Removemos la clase 'hidden' para que el contenedor sea visible en la pantalla
